@@ -351,8 +351,37 @@ ul li::marker {
     background-color: #0D1B2A;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     color: #909090;
     padding: 50px 0;
+}
+
+.footer-logo-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #909090;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #065cf2;
 }
 
 .footer-links {
@@ -368,4 +397,11 @@ ul li::marker {
 .footer-links a {
     text-decoration: none;
     color: #909090;
+}
+
+.footer hr {
+    border: 0;
+    height: 1px;
+    margin: 50px 100px;
+    background: linear-gradient(to right, transparent, #5c5b5b, transparent);
 }
