@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #232222;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 6px;
+    color: #232222;
+}
+
+.nav-links a:hover {
+    color: #f2f2f2;
+    background-color: #232222;
+    border-radius: 5px;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    background-color: #065cf2;
+    color: #f2f2f2;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.register-btn:hover {
+    background-color: #0549c4;
+    cursor: pointer;
+}
+    
